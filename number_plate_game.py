@@ -1,3 +1,5 @@
+# The excellent dictionary I use here is from https://phillipmfeldman.org/English/large.txt
+
 def number_plate_game():
     
     first_letter = input("First letter: ").upper()
@@ -5,7 +7,7 @@ def number_plate_game():
     third_letter = input("Third letter: ").upper()
     print()
 
-    dictionary = open("unix_word_list.txt", "r")
+    dictionary = open("dictionary.txt", "r")
     words = dictionary.readlines()
     
     for word in words:
