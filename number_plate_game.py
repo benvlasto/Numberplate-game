@@ -29,7 +29,7 @@ def number_plate_game():
         sub_sub_word = sub_word[second_char_pos + 1:]
         if third_letter in sub_sub_word:
             print(word)
-
+            
     print()
     number_plate_game()
 
